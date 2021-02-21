@@ -9,12 +9,10 @@ public class MoveCube : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         ifButtonPressed = true;
-        Debug.Log("d");
     }
     public void OnPointerUp(PointerEventData eventData)
     {
         ifButtonPressed = false;
-        Debug.Log("u");
     }
     public void Update()
     {
